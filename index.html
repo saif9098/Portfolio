@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7ba9908fc8.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img id="logo" src="images/PhotoRoom-20240204_223004.png" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="details">
+                <div>
+                    <p><b>MERN Stack Web Developer</b></p><br>
+                    <h1>Hi, I'm <span>Saif Raja</span><br>From MadhyaPradesh, India </h1>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img class="myimg" src="images/PhotoRoom-20231230_123655.png" alt=""></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        I am a 3rd year computer science student of Samrat Ashok technological institute, Vidisha. I am
+                        skilled in MERN stack web development, and
+                        a little bit graphic designing like logo design and poster design. I love to play outdoor games.
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Work experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id='skills'>
+                        <ul>
+                            <li><span>Front-end</span><br>Html, Css, JavaScript, and ReactJs</li>
+                            <li><span>Back-end</span><br>Node.js and Express.js</li>
+                            <li><span>Database</span><br>MongoDb and Mysql</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id='experience'>
+                        <ul>
+                            <span>Bharat Intern</span>
+                                 <h2>Frontend web developer</h2>
+                                 <h5>sept. 2023 to nov. 2023</h5>
+                                 <li>UI based work</li>
+                                 <li>some intresting projects</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id='education'>
+                        <ul>
+                            <li>Oct. 2021 <br><span>B.Tech</span><br>Admission in Samrat Ashok Technological Institute, Vidisha </li>
+                            <li><h3><span>12<sup>th</sup></span> Passed from M.P. Board</h3></li>
+                            <li><h3><span>10<sup>th</sup></span> Passed from M.P. Board</h3></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2><span>Front-end design UI </span></h2><br>
+                    <p>I can easily design attractive and user interactive frontend interface</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2><span>Backend-end work</span></h2><br>
+                    <p>I can write high quality code to handle multiple APIs and database connections </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <h2><span>Logo and poster designing</span></h2><br>
+                    <p>I can easily design basic logo and posters, which is helpful in websites</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="work">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects">
+                <div>
+                    <a href="https://saif9098.github.io/music-player/"><img src="images/music-wallpaper.jpg" alt="">
+                        <h3>Music Player</h3>
+                        <p>An attractive mp3 player application to enjoy music</p></a>
+                </div>
+
+                <div><a href="https://saif9098.github.io/QRscanner-generator/"> <img src="images/istockphoto-532268200-612x612.jpg" alt="">
+                    
+                        <h3>QR-code generator&scanner</h3>
+                        <p>You can generate a qr code of any url and also scan your qr</p>
+                        </a>
+                </div>
+                <div><a href=""> <img src="images/mini-project.jpg" alt="">
+                        <h3>Minor projects</h3>
+                        <p>here we have a lot of small projects which can be a part of major projects</p>
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact-feedback">
+        <div class="container">
+
+            <div class="query">
+                <div class="contactme">
+                    <h1>Visit my Profile</h1>
+                    <div>
+                        <a href="https://www.linkedin.com/in/mo-saif-raja-31b327233"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/saif9098?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://replit.com/@saifrajamarch64"><i class="fa-solid fa-code"></i></a>
+                        <a href="https://www.instagram.com/sheikhsaif.raza/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                     
+                    <p><i class="fa-solid fa-phone-volume"></i> +91 9098118346</p><br>
+                    <p> <i class="fa-solid fa-map-location-dot"></i> Satna, MadhyaPradesh</p>
+                    <a class="cv" href="/images/new CV Resume (2)_page-0001.jpg" download="My CV" >Download CV</a>
+
+                </div>
+
+                <div class="feedback">
+                    <h1>Your Feedback</h1><br>
+                    <div>
+                        <input id="name-input" type="text" name="Enter name" placeholder="Enter your full name">
+                        <input id="mail-input" type="text" name="Enter email" placeholder="Enter your email">
+                    </div>
+
+                    <textarea name="feedback" id="desc-input" cols="43" rows="8"
+                        placeholder="Leave me a message"></textarea> <br>
+                    <button onclick="savedata()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="resp.js"></script>
+</body>
+
+</html>
