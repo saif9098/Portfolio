@@ -290,7 +290,7 @@ nav .fas{
       background-repeat: no-repeat;
       background-size: cover;
         width: 100%;
-        height: 56vh;
+        height: 66vh;
         
     }
     nav .fas{
@@ -302,7 +302,7 @@ nav .fas{
         top: 0;
         right: -200px;
         width: 200px;
-        height: 56vh;
+        height: 66vh;
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
