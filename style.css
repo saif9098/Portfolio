@@ -45,7 +45,7 @@ nav ul li a{
     font-size: 16px;
 }
 nav ul li  :hover{
-    color: aqua;
+    color: rgb(39, 56, 209);
 }
 .myPic{
     width: 500px;
@@ -327,7 +327,7 @@ nav .fas{
         margin-top: 70%;
     }
     .details h1 span{
-        color: #fc6169;
+        color: aqua;
         font-weight: 800;
     }
     .services-list div{
