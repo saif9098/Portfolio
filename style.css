@@ -17,6 +17,7 @@ body{
   background-size: cover;
     width: 100%;
     height: 100vh;
+    
 
 }
 .container{
@@ -56,7 +57,7 @@ nav ul li  :hover{
     margin-top: 17%;
     align-items: center;
     flex-wrap: wrap;
-    color: rgb(9, 10, 10);
+    color: rgb(13, 14, 14);
 }
 .details h1 span{
     color: aqua;
@@ -237,7 +238,7 @@ display: block;
 #contact-feedback .query{
     display: flex;
     flex-wrap: wrap;
-    
+    gap: 70px;
 }
 .cv{
     display: inline-block;
@@ -258,10 +259,11 @@ display: block;
 .feedback div{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 10px;
 }
 .feedback input{
-    width: 130px;
+   max-width: 140px;
 border: none;
     background-color: black;
     outline: none;
@@ -281,20 +283,31 @@ border:1px solid white;
     color: #000;
     border-radius: 5px;
     height: 25px;
+    width: 308px;
     font-size: 15px;
     font-weight: 600;
+}
+.feedback button:hover{
+    background-color: rgb(19, 16, 10);
+    color: #e6dede;
 }
 nav .fas{
     display: none;
 }
 @media (max-width:600px) {
     #header{
-        background-image: url(images/portfolioLogoSaif2.png);
+        background-image: url(images/portfolioLogoSaif2.jpg);
       background-repeat: no-repeat;
       background-size: cover;
-        width: 100%;
-        height: 99vh;
+        width: 100vw;
+        height: 100vh;
         
+        
+        
+    }
+    .details{
+        margin-top: 150px;
+        color: #e6dede;
     }
     nav .fas{
         display: block;
@@ -305,12 +318,13 @@ nav .fas{
         top: 0;
         right: -200px;
         width: 200px;
-        height: 99vh;
+        height: 100vh;
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
         color: #000;
     }
+    
     nav ul li{
         display: block;
         margin: 25px;
@@ -326,12 +340,9 @@ nav .fas{
         left: 65px;
         cursor: pointer;
     }
-    .details{
-        margin-top: 70%;
-    }
+  
     .details h1 span{
         color: aqua;
-        font-weight: 800;
     }
     .services-list div{
         width: 200px;
@@ -362,11 +373,11 @@ nav .fas{
       background-repeat: no-repeat;
       background-size: cover;
         width: 100%;
-        height: 65vh;
+        height: 50vh;
         
     }
     .details{
-        margin-top: 60%;
+        margin-top: 50%;
     }
     
     .feedback{
